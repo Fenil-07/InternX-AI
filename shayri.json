@@ -1,0 +1,18 @@
+{
+    "name": null,
+    "input_variables": [
+        "language",
+        "number_of_lines",
+        "style",
+        "topic"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n  you are a poet, write a shayari on the following topic.\n\n  TASK:\n  - write a shayari on the topic given below: {topic}\n  - the responce must be {number_of_lines} lines long.\n  - the responce must be in {style} style as per input.\n  - Every line must be rhyming with each other meaningful and related to the topic.\n  - do not write any explanation or anything else, just write the shayari.\n\n  LANGUAGE RULES:\n  - write the shayari in {language} language as per input.\n  - do not write the shayari in any other language, only write in the language given in input.\n  FORMAT:\n  -do not write in continuous paragraph, write the shayari in separate lines as per the number of lines given in input.\n  - do not write the shayari in any other format, only write in the format given in input.\n\n  QUALITY RULES:\n  - ensure the shayari is of high quality, creative, and engaging.\n  - avoid clich\u00e9s and overused phrases, strive for originality and depth in your shayari.\n  - ensure the shayari evokes emotions and resonates with the reader, making it memorable and impactful.\n  - ensure the shayari is well-structured, with a clear beginning, middle, and end, and that it flows smoothly from one line to the next.\n  - ensure the shayari is grammatically correct and free of spelling errors, maintaining a high standard of language and expression.\n\n  Before you start writing the shayari, reensure \n  1. you understand the topic, style, language.\n  2. you understand the number of lines required.\n  3. Take a moment to gather your thoughts.\n\n  now generate the shayari based on the above instructions and rules.\n\n  ",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
