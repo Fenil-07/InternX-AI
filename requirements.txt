@@ -20,3 +20,4 @@ python-dotenv
 numpy 
 scikit-learn
 streamlit
+st-copy-to-clipboard
